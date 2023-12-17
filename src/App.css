@@ -1,0 +1,97 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.home {
+  background-color: #3498db;
+}
+
+.projects {
+  background-color: #2ecc71;
+}
+
+.skills {
+  background-color: #e74c3c;
+}
+
+.resume {
+  background-color: #f39c12;
+}
+
+.contact {
+  background-color: #9b59b6;
+}
+
+.content {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.scroll-icon {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+nav button {
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.scroll-icon {
+  font-size: 2em;
+  cursor: pointer;
+  animation: fadeIn 1s infinite alternate;
+}
