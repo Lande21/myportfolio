@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { FaChevronDown } from 'react-icons/fa';
-import './app'
+import './App'
 
 const Home = () => (
   <div id="home" className="section home">
