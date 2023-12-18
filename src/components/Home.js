@@ -7,7 +7,7 @@ import './app'
 const Home = () => (
   <div id="home" className="section home">
     <div className="content">
-      <h1>Welcome to My Portfolio Amba</h1>
+      <h1>Welcome to My Portfolio Amba but</h1>
       <Link to="projects" smooth={true} duration={500}>
         <FaChevronDown className="scroll-icon" />
       </Link>
